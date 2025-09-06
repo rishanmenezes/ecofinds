@@ -34,7 +34,7 @@ To get EcoFinds up and running on your local machine, follow these steps:
 
     ```bash
     git clone <repository-url>
-    cd "EcoFinds"
+    cd "EcoFinds - Original - Copy"
     ```
 
 2.  **Install dependencies:**
@@ -92,6 +92,19 @@ EcoFinds/
 ├── tailwind.config.ts    # Tailwind CSS configuration
 ├── vite.config.ts        # Vite build configuration
 └── README.md             # Project documentation
+```
+
+## Contributors
+
+- Rishan Menezes
+- Rakesh G
+- Nagaraju HL
+- Prithvi HN
+
+## Demo
+
+Watch a demo of EcoFinds here: <mcurl name="EcoFinds Demo" url="https://youtu.be/u-iIejnpoww?si=P4MFfKKwY8Rhqp"></mcurl>
+
 ## Contributing
 
 We welcome contributions to EcoFinds! Please feel free to fork the repository, create a new branch, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
