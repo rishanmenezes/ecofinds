@@ -103,7 +103,9 @@ EcoFinds/
 
 ## Demo
 
-Watch a demo of EcoFinds here: <mcurl name="EcoFinds Demo" url="https://youtu.be/u-iIejnpoww?si=P4MFfKKwY8Rhqp"></mcurl>
+Watch a demo of EcoFinds here: 
+
+https://youtu.be/u-iIejnpoww?si=P4MFfKKwY8Rhqp
 
 ## Contributing
 
