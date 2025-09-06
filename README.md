@@ -34,7 +34,7 @@ To get EcoFinds up and running on your local machine, follow these steps:
 
     ```bash
     git clone <repository-url>
-    cd "EcoFinds - Original - Copy"
+    cd "EcoFinds"
     ```
 
 2.  **Install dependencies:**
