@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Eco-friendly green theme */
+    --background: 120 30% 97%;
+    --foreground: 120 20% 15%;
+
+    --card: 120 25% 98%;
+    --card-foreground: 120 20% 15%;
+
+    --popover: 120 25% 98%;
+    --popover-foreground: 120 20% 15%;
+
+    --primary: 145 55% 30%;
+    --primary-foreground: 120 30% 97%;
+
+    --secondary: 115 35% 85%;
+    --secondary-foreground: 120 25% 20%;
+
+    --muted: 115 25% 92%;
+    --muted-foreground: 120 15% 40%;
+
+    --accent: 88 50% 65%;
+    --accent-foreground: 120 20% 15%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 120 30% 97%;
+
+    --border: 115 20% 88%;
+    --input: 115 20% 88%;
+    --ring: 145 55% 30%;
+
+    --radius: 0.75rem;
+
+    /* Eco-specific colors */
+    --eco-primary: 145 55% 30%;
+    --eco-secondary: 88 50% 65%;
+    --eco-tertiary: 60 45% 75%;
+    --eco-earth: 35 40% 60%;
+    --eco-forest: 155 45% 25%;
+
+    /* Gradients */
+    --gradient-eco: linear-gradient(135deg, hsl(var(--eco-primary)), hsl(var(--eco-secondary)));
+    --gradient-earth: linear-gradient(135deg, hsl(var(--eco-earth)), hsl(var(--eco-tertiary)));
+    
+    /* Shadows */
+    --shadow-eco: 0 4px 20px hsl(var(--eco-primary) / 0.15);
+    --shadow-gentle: 0 2px 8px hsl(120 20% 15% / 0.1);
+
+    --sidebar-background: 120 25% 96%;
+    --sidebar-foreground: 120 20% 25%;
+    --sidebar-primary: 145 55% 30%;
+    --sidebar-primary-foreground: 120 30% 97%;
+    --sidebar-accent: 115 30% 90%;
+    --sidebar-accent-foreground: 120 20% 20%;
+    --sidebar-border: 115 20% 85%;
+    --sidebar-ring: 145 55% 30%;
+  }
+
+  .dark {
+    /* Dark eco theme */
+    --background: 120 15% 8%;
+    --foreground: 120 20% 90%;
+
+    --card: 120 15% 10%;
+    --card-foreground: 120 20% 90%;
+
+    --popover: 120 15% 10%;
+    --popover-foreground: 120 20% 90%;
+
+    --primary: 145 60% 45%;
+    --primary-foreground: 120 15% 8%;
+
+    --secondary: 120 10% 18%;
+    --secondary-foreground: 120 20% 85%;
+
+    --muted: 120 10% 15%;
+    --muted-foreground: 120 15% 60%;
+
+    --accent: 88 45% 55%;
+    --accent-foreground: 120 15% 8%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 120 20% 90%;
+
+    --border: 120 10% 20%;
+    --input: 120 10% 20%;
+    --ring: 145 60% 45%;
+
+    /* Dark eco-specific colors */
+    --eco-primary: 145 60% 45%;
+    --eco-secondary: 88 45% 55%;
+    --eco-tertiary: 60 40% 65%;
+    --eco-earth: 35 35% 50%;
+    --eco-forest: 155 50% 35%;
+
+    --sidebar-background: 120 15% 6%;
+    --sidebar-foreground: 120 15% 85%;
+    --sidebar-primary: 145 60% 45%;
+    --sidebar-primary-foreground: 120 15% 8%;
+    --sidebar-accent: 120 10% 12%;
+    --sidebar-accent-foreground: 120 15% 80%;
+    --sidebar-border: 120 10% 18%;
+    --sidebar-ring: 145 60% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
