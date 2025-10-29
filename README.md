@@ -73,7 +73,7 @@ To get EcoFinds up and running on your local machine, follow these steps:
 -   **Add Listings:** If you're a seller, create and manage your product listings.
 -   **Shopping:** Add items to your cart and proceed to checkout.
 
-## Project Structur
+## Project Structure
 
 ```
 EcoFinds/
