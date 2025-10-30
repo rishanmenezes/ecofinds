@@ -4,7 +4,7 @@ EcoFinds is an innovative e-commerce platform designed to connect users with sus
 
 ## Features
 
-- **User Authentication:** Secure sign-up and login powered by Supabase.
+- **User Authentication:** Secure sign-up and login powered by Supabase
 - **Product Listings:** Browse and discover a wide range of eco-friendly products.
 - **Shopping Cart:** Add and manage products before checkout.
 - **User Profiles:** Personalize your experience and manage your listings.
