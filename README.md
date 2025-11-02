@@ -1,4 +1,4 @@
-# EcoFinds
+ EcoFinds
 
 EcoFinds is an innovative e-commerce platform designed to connect users with sustainable and eco-friendly products. Our mission is to make conscious consumption accessible and convenient, fostering a community that values environmental responsibility.
 
